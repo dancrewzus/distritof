@@ -1,0 +1,9 @@
+export const colors = {
+  NOT_PAY_DAY: '#FFFFFF',
+  CLIENT_RECEIVE_PAY: '#2167CA',
+  PAY_DAY: '#686868',
+  NOT_PAYED: '#FF0000',
+  DAY_EXPIRED: '#6B0000FF',
+  PENDING: '#FFD900',
+  PAYED: '#22FF00',
+}
