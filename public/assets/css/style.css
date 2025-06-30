@@ -4965,7 +4965,7 @@ ul.wp-block-latest-posts li:last-child {
   font-size: 18px;
   font-weight: 500;
   font-family: var(--title-font);
-  color: var(--theme-color);
+  color: #075e54;
   position: relative;
   padding: 37px 35px 37px 0;
 }
@@ -5144,7 +5144,7 @@ ul.wp-block-latest-posts li:last-child {
 }
 .header-layout2 .navbar-right-desc i {
   margin-right: 10px;
-  transform: rotate(-45deg);
+  /* transform: rotate(-45deg); */
 }
 .header-layout2 .navbar-right-desc a {
   color: var(--white-color);
@@ -12090,7 +12090,7 @@ span.select2-selection.select2-selection--single:focus {
   transition: 0.4s;
 }
 .pricing-card_price {
-  font-size: 72px;
+  font-size: 3em;
   font-weight: 500;
   color: var(--theme-color);
   border-bottom: 1px solid #E2E2E4;
@@ -12099,14 +12099,14 @@ span.select2-selection.select2-selection--single:focus {
   margin-bottom: 22px;
 }
 .pricing-card_price .currency {
-  font-size: 24px;
+  font-size: 1em;
   position: relative;
-  top: -30px;
+  top: 0;
   margin-right: 6px;
   display: inline-block;
 }
 .pricing-card_price .duration {
-  font-size: 8px;
+  font-size: 0.5em;
   font-weight: 400;
 }
 .pricing-card_content {
