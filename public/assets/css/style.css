@@ -12034,6 +12034,22 @@ span.select2-selection.select2-selection--single:focus {
   position: relative;
   z-index: 0;
 }
+.pricing-card_ribbon {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  background-color: #f4d41e;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 6px 0;
+  z-index: 10;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
 .pricing-card_bg {
   position: absolute;
   left: 0;
@@ -14676,21 +14692,4 @@ span.select2-selection.select2-selection--single:focus {
 }
 .whatsapp-float:hover {
     transform: scale(1.1);
-}
-
-.pricing-card-ribbon {
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    width: 100%;
-    background-color: #f4d41e;
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 6px 0;
-    z-index: 10;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
