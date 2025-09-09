@@ -1446,6 +1446,11 @@
     </div>
 
     <!--==============================
+    Shoping cart
+    ==============================-->
+    <iframe id="carro-compra-web"scrolling="no"style="visibility:visible;border:0px;margin:0px;overflow:hidden"src="https://distritof.grupodtg.com/carro-compra-web/"width="100%"height="500"></iframe><script language="javascript"type="text/javascript">let frameheight=null;let frame=document.getElementById('carro-compra-web');frame.addEventListener('load',()=>carroCompraFrame());window.addEventListener("message",response=>{if(response.data.hasOwnProperty('h')&&frameheight!=response.data.h){frame.style.height=response.data.h+'px';frameheight=response.data.h;}},false);let carroCompraFrame=()=>{setInterval(()=>{frame.contentWindow.postMessage("getmeasure","*");},100);}</script>
+
+    <!--==============================
     schedule Area  
     ==============================-->
     <div id="calendar" class="schedule-area-1 space space-bottom">
